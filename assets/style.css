@@ -1,5 +1,6 @@
 #title {
   text-align: center;
+  line-height: 12px;
 }
 
 #crossword-puzzle {
@@ -10,6 +11,7 @@
 }
 
 .letter {
+  line-height: 12px;
   height: 25px;
   width: 25px;
   float: left;
@@ -17,6 +19,7 @@
   text-align: center;
   border: 2px solid #000044;;
   position: relative;
+  line-height: 12px;
  
    
 }
@@ -27,6 +30,7 @@
   float: left;
   background-color: yellow;
   z-index: 5;
+  line-height: 12px;
   
 }
 
