@@ -1,9 +1,10 @@
 body {
   font-family: sans-serif;
+  font: 100%;
 }
 #title {
   text-align: center;
-  line-height: 1em;
+  line-height: 1.5em;
 }
 
 #crossword-puzzle {
@@ -14,20 +15,16 @@ body {
 }
 
 .letter {
-  line-height: 1em;
-  height: 27px;
-  width: 27px;
+  line-height: 1.5em;
+  height: 1.2em;
+  width: 1.2em;
   float: left;
-  font-size: 18px;
+  font-size: 1.5em;
   text-align: center;
-  border: 1px solid #000044;;
+  border: .025em solid grey;
   position: relative;
-  
- 
    
 }
-
-
 .wrapper {
   position: relative;
   float: left;
