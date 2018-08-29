@@ -60,7 +60,10 @@ input:focus {
 .hideletter::placeholder {
   opacity: 0;
   color: transparent;
+  color: #fff
 }
+
+
 
 button {
   border-radius: 12px;
