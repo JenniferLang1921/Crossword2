@@ -8,7 +8,7 @@ body {
 }
 
 #crossword-puzzle {
-  width: 800px;
+  width: 50em;
   margin-bottom: 100px;
   margin: auto;
    
@@ -22,8 +22,8 @@ body {
   font-size: 1.5em;
   text-align: center;
   border: .025em solid grey;
-  position: relative;
-   
+  
+  
 }
 .wrapper {
   position: relative;
