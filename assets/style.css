@@ -52,6 +52,11 @@ input:disabled{
 input::text {
   opacity: 0;
   color: transparent;
+ 
+}
+
+input {
+  padding: 0.025em;
 }
 
 
