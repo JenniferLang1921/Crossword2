@@ -10,7 +10,7 @@ $(document).ready(function () {
             //makes focus jump to next input when a letter is typed
 
             $(".hideletter:focus").on('input', function() {
-                $("#.num:focus").next().focus();
+                $("input:focus").next().focus();
                 
                 
             });
@@ -26,6 +26,7 @@ $(document).ready(function () {
                  focusedElement.parent().next().focus();
                 }
                     else{
+
                     $(".hideletter:focus").next().focus();
                     $(".num:focus").next().focus();
                     }
