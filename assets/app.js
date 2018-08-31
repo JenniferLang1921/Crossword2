@@ -11,8 +11,9 @@ $(document).ready(function () {
 
             $(".hideletter:focus").on('input', function() {
                 $("input:focus").next().focus();
-                
-                
+
+
+                              
             });
 
             switch (e.which) {
