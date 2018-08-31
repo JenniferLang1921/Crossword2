@@ -1,3 +1,4 @@
+
 $(document).ready(function () {
     
     //jquery is working!
@@ -24,24 +25,24 @@ $(document).ready(function () {
                 
 
                     $(".hideletter:focus").next().focus();
-                    $(".num:focus").next().focus();
+                   
                     
                     break;
 
 
                 case 40: //down doesn't work
                     $(".hideletter:focus").next().focus();
-                    $(".num:focus").next().focus();
+                   
                     break;
 
                 case 37: //left
                     $(".hideletter:focus").prev().focus();
-                    $(".num:focus").prev().focus();
+                    
                     break; 
 
                 case 38: //up doesn't work
                     $(".hideletter:focus").next().focus();
-                    $(".num:focus").next().focus();
+                   
                     break;
 
                 
