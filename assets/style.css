@@ -29,7 +29,7 @@ body {
   position: relative;
   float: left;
   background-color: yellow;
-  z-index: 5;
+  z-index: -2;
   line-height: 1em;
   
 }
@@ -40,7 +40,7 @@ body {
   left: 3px;
     font-size: 1em;
     color: rgb(0, 0, 0);
-    z-index: 10;
+    z-index: 0;
     line-height: 1em;
     pointer-events:none;
     
@@ -64,12 +64,14 @@ input::text {
 
 input {
   padding: 0.025em;
+  z-index: 2;
 }
 
 
 
 input:focus {
     background-color: yellow;
+    z-index: 4;
 }
 
 .hideletter::placeholder {

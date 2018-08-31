@@ -8,8 +8,9 @@ $(document).ready(function () {
         function (e) {
 
             //makes focus jump to next input when a letter is typed
+
             $(".hideletter:focus").on('input', function() {
-                $(".hideletter:focus").next().focus();
+                $("#.num:focus").next().focus();
                 
                 
             });
@@ -18,9 +19,19 @@ $(document).ready(function () {
                
                
                 case 39: //right
-                   $(".hideletter:focus").next().focus();
+               
+                var focusedElement= $(document.activeElement);
+
+                if(focusedElement.parent().hasClass('wrapper')){
+                 focusedElement.parent().next().focus();
+                }
+                    else{
+                    $(".hideletter:focus").next().focus();
                     $(".num:focus").next().focus();
+                    }
                     break;
+
+
                 case 40: //down doesn't work
                     $(".hideletter:focus").next().focus();
                     $(".num:focus").next().focus();
