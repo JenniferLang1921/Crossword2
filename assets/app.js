@@ -21,16 +21,11 @@ $(document).ready(function () {
                
                 case 39: //right
                
-                var focusedElement= $(document.activeElement);
-
-                if(focusedElement.parent().hasClass('wrapper')){
-                 focusedElement.parent().next().focus();
-                }
-                    else{
+                
 
                     $(".hideletter:focus").next().focus();
                     $(".num:focus").next().focus();
-                    }
+                    
                     break;
 
 
@@ -72,4 +67,3 @@ $(document).ready(function () {
       
 
 });
-
